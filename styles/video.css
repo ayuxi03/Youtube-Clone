@@ -3,12 +3,15 @@
   border-radius: 12px;
 }
 
-.video-title{
-  margin-top: 0;
-  font-size: 14px;
+.video-title {
+  font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
-  margin-bottom: 10px;
+  line-height: 22px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 
 .video-link {
@@ -73,3 +76,31 @@
   right: 8px;
   bottom: 10px;
 }
+
+.shorts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+}
+
+.shorts-logo {
+  margin-left: 10px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 20px;
+  width: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.red-shorts-symbol {
+  height: 20px;
+}
+
+.shorts-thumbnail {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 12px;
+}
+
